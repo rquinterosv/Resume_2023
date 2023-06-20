@@ -1,0 +1,124 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+body h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+body h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+p, ul, li{
+    font-size: 12px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 200px) { 
+
+    header .name {
+        color: aliceblue;
+        padding: 10px;
+        padding-top: 20px;
+        background-color: black;
+    }
+
+    header .contact  h3 {
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+
+    header .contact  p{
+        padding-left: 10px;
+        text-align: start;
+    }
+    
+    .resume {
+        padding: 20px;
+    }
+
+    .resume .title-resume {
+        text-decoration: underline;
+    }
+
+    .resume .text-resume {
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 20px;
+        text-align: center;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    header {
+        background-color: black;
+        color: aliceblue;
+        padding: 20px;
+    }
+
+    header .name {
+        padding-top: 40px;
+    }
+
+    header .contact  h3 {
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    header .contact  p{
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .resume .title-resume {
+        padding-top: 50px;
+    }
+
+    .resume .text-resume {
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 20px;
+    } 
+
+    .experience .items {
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .experience h3{
+        text-decoration: underline;
+        padding-top: 20px;
+    }
+
+    .experience h5{
+        font-size: 15px;
+        text-align: start;
+        font-weight: 700;
+    }
+
+    .experience h6{
+        font-size: 12px;
+        text-align: start;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .experience p{
+        font-size: 10px;
+        text-align: start;
+    }
+}
