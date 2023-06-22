@@ -32,6 +32,11 @@ body {
     background-color: black;
 }
 
+.main .botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .general .right {
     background-color: black;
     color: azure;
